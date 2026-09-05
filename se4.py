@@ -39,3 +39,4 @@ print(word.find("w"))
 print(len(word))
 
 
+print()
