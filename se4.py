@@ -20,23 +20,27 @@
 # print(word[::-1])
 
 
-word = "hello"
-print(word.upper())
-word = "HELLO"
-print(word.lower())
-word = " hello "
-print(word.strip())
-word = " hello "
-print(word.replace("l", "*"))
-word = "h e l l o"
-print(word.split(" "))
+# word = "hello"
+# print(word.upper())
+# word = "HELLO"
+# print(word.lower())
+# word = " hello "
+# print(word.strip())
+# word = " hello "
+# print(word.replace("l", "*"))
+# word = "h e l l o"
+# print(word.split(" "))
 
-word = "hello"
-print(word.count("l"))
-print(word.startswith("h"))
-print(word.find("h"))
-print(word.find("w"))
-print(len(word))
+# word = "hello"
+# print(word.count("l"))
+# print(word.startswith("h"))
+# print(word.find("h"))
+# print(word.find("w"))
+# print(len(word))
 
 
-print()
+# print()
+
+price = float(input("enter laptop hp ultra 14 Flip : "))
+# print(f"laptop price : {price:.2f}")
+print(f"laptop price : {int(price):,}")
