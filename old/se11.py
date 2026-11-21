@@ -35,21 +35,20 @@
 # print(student)
 
 
+# student = {
+#     "name" : "ali",
+#     "age" : 16,
+#     "city" : "tehran",
+#     "score" : 92.4,
+#     "active" : True
+# }
 
-student = {
-    "name" : "ali",
-    "age" : 16,
-    "city" : "tehran",
-    "score" : 92.4,
-    "active" : True
-}
+# for item in student:
+#     print(item)
 
-for item in student:
-    print(item)
-
-for item in student.values():
-    print(item)
-for item in student.items():
-    print(item)
-for key, val in student.items():
-    print(key, val)
+# for item in student.values():
+#     print(item)
+# for item in student.items():
+#     print(item)
+# for key, val in student.items():
+#     print(key, val)
